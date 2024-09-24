@@ -13,7 +13,7 @@ ol {
 
 a {
     color: currentColor;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 img {
@@ -34,7 +34,7 @@ html {
     display: inline-block;
     /* background-color: yellow; */
     border: 1px solid blue;
-    padding: 40px 10px;
+    padding: 20px 10px;
 }
 
 .container {
@@ -44,8 +44,19 @@ html {
     margin: 0 auto;
 }
 
+/* UTILITY  */
 
+.red-text {
+    color: red;
+}
 
+.crossed-text {
+    text-decoration:line-through;
+}
+
+.small-text {
+    font-size: 13px;
+}
 
 
 /* DEBUG */
