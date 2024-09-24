@@ -16,6 +16,50 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* LAYOUT */
+
 html {
     font-family: "Montserrat", sans-serif;
 }
+
+.col-16 {
+	width: calc(100% / 3);
+}
+
+.card.col-16 {
+    display: inline-block;
+    /* background-color: yellow; */
+    border: 1px solid blue;
+    padding: 40px 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* DEBUG */
+
+.debug {
+    border: 2px solid black;
+}
+
+.card.debug {
+    background-color: blueviolet;
+    border: 2px dotted blue;
+}
+
+.card_image.debug {
+    background-color: green;
+    border: 2px solid black; */
+} 
