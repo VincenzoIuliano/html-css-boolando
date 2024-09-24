@@ -66,6 +66,25 @@ html {
     font-size: 13px;
 }
 
+/* HEADER  */
+
+.main-header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: inline;
+    width: auto;
+    background-color: blue;
+    justify-items: center;
+}
+
+
+/* MAIN */
+
 .sconto {
     background-color: red;
     color: white;
