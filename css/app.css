@@ -33,7 +33,7 @@ html {
 .card.col-16 {
     display: inline-block;
     /* background-color: yellow; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 20px 10px;
 }
 
@@ -59,9 +59,9 @@ html {
 }
 
 
-/* DEBUG */
+/* DEBUG  */
 
-.debug {
+/* .debug {
     border: 2px solid black;
 }
 
@@ -73,4 +73,4 @@ html {
 .card_image.debug {
     background-color: green;
     border: 2px solid black; */
-} 
+}  */
