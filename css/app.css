@@ -44,6 +44,13 @@ html {
     margin: 0 auto;
 }
 
+.card_image {
+    position: relative;
+}
+
+.card_info > * {
+    display: block;
+}
 /* UTILITY  */
 
 .red-text {
@@ -52,6 +59,7 @@ html {
 
 .crossed-text {
     text-decoration:line-through;
+    display: inline;
 }
 
 .small-text {
@@ -62,16 +70,33 @@ html {
     background-color: red;
     color: white;
     padding: 5px;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom: 50px;
 }
 
 .materiale {
     background-color: green;
     color: white;
     padding: 5px;
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+}
+
+.labels {
     position: relative;
-    bottom: 70px;
+}
+
+.preferito {
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    right: 0px;
+    bottom: 400px;
+}
+
+.prodotto {
+    font-weight: bold;
 }
 
 /* DEBUG  */
